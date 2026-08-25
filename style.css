@@ -3,22 +3,23 @@ body{
     font-family: 'arial', sans-serif;
     justify-content: center;
     align-items: center;
+    background-color: #d3d3d3;
 }
 
 h1{
     color: #e8e9e8;
-    font-size: 35px;
+    font-size: 45px;
     margin-bottom: 20px;
     font: bold;
 }
 
 .container{
     background-color: #c07d5c;
-    height: 300px;
-    width: 300px;
-    margin: 20px;
+    height: 400px;
+    width: 400px;
+    margin: 30px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 form{
@@ -30,19 +31,20 @@ form{
 }
 
 input{
-    width: 200px;
-    height: 30px;
+    width: 250px;
+    height: 40px;
     border-radius: 10px;
     border: none;
     padding-left: 10px;
     background-color: #e8e9e8;
+    font-size: 13px;
 }
 
-.botao{
+.botao a {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 15px 25px;
     background-color: #5c7dc0;
-    color: #8e9e8e;
+    color: #dcd9d9;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -54,4 +56,5 @@ input{
     color: #5c7dc0;
     background-color: #e8e9e8;
     transition: 0.5s;
+    border-radius: 10px;
 }
